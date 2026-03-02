@@ -1,7 +1,10 @@
 import { useState } from 'react';
 import './App.css';
 import { NavBar } from './components/NavBar';
-import { SimpleMap } from './components/Map';
+import { Home } from './pages/Home';
+import { KnowYourRights } from './pages/KnowYourRights';
+import { LiveMap } from './pages/LiveMap';
+import { Resources } from './pages/Resources';
 
 function App() {
   const [tab, setTab] = useState('Home');
@@ -9,8 +12,7 @@ function App() {
   return (
     <div className="App">
       <NavBar setTab={setTab} tab={tab}/>
-      <SimpleMap />
-      {/* {tab === 'Home' &&
+      {tab === 'Home' &&
         <Home />
       }
       {tab === 'KnowYourRights' &&
@@ -21,7 +23,7 @@ function App() {
       }
       {tab === 'Resources' &&
         <Resources />
-      } */}
+      }
     </div>
   );
 }

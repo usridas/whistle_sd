@@ -1,4 +1,4 @@
-import { AppBar, Button, ButtonGroup, IconButton, Link, MenuItem, Toolbar, Typography } from '@mui/material';
+import { AppBar, IconButton, MenuItem, Toolbar } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import './NavBar.js';
 
@@ -51,13 +51,5 @@ export const NavBar = ({setTab, tab}) => {
                 </div>
             </Toolbar>
         </AppBar>
-    // <div className='navBarContainer'>
-    //     <ButtonGroup variant="outlined" aria-label="Basic button group">
-    //         <Button onClick={homeOnClick} variant={tab === 'Home' ? 'contained': 'outlined'}>Home</Button>
-    //         <Button onClick={knowYourRightsOnClick} variant={tab === 'KnowYourRights' ? 'contained': 'outlined'}>Know Your Rights</Button>
-    //         <Button onClick={liveMapOnClick} variant={tab === 'LiveMap' ? 'contained': 'outlined'}>Live Map</Button>
-    //         <Button onClick={resourcesOnClick} variant={tab === 'Resources' ? 'contained': 'outlined'}>Resources</Button>
-    //     </ButtonGroup>
-    // </div>
     )
 }
