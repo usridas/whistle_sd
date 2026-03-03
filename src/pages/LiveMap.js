@@ -17,7 +17,7 @@ export const LiveMap = ({language, alerts}) =>{
             </Grid>
           }
           <Grid size={{lg: 4, md: 12, sm: 12, xs: 12}} sx={{maxHeight: '795px'}}>
-            <Card sx={{height: '100%', overflowY: 'scroll'}}>
+            <Card elevation={3} sx={{height: '100%', overflowY: 'scroll'}}>
               <CardContent>
                 {alerts.length === 0 && <Alert severity='info'>
                   <AlertTitle>No updates</AlertTitle>
@@ -28,7 +28,7 @@ export const LiveMap = ({language, alerts}) =>{
                     <Grid size={12}>
                       <Alert severity={alert.severity}>
                         <AlertTitle>{alert.title}</AlertTitle>
-                        {alert.text}
+                        <div style={{display: 'flex'}}>{alert.text}</div>
                       </Alert>
                     </Grid>
                   ))}

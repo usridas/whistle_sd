@@ -1,6 +1,13 @@
 .App {
   text-align: center;
-  padding: 72px;
+  padding: 36px;
+  min-width: 296px;
+  @media (max-width: 1199px) and (min-width: 900px) {
+        padding: 24px;
+    };
+  @media (max-width: 899px) {
+        padding: 12px;
+    };
 }
 
 .App-logo {

@@ -9,18 +9,18 @@ function App() {
   const [tab, setTab] = useState('LiveMap');
   const [language, setLanguage] = useState('EN');
   const alerts = [
-    {severity: 'error', title: 'title', text: 'text'},
-    {severity: 'warning', title: 'title', text: 'text'},
-    {severity: 'info', title: 'title', text: 'text'},
-    {severity: 'error', title: 'title', text: 'text'},
-    {severity: 'warning', title: 'title', text: 'text'},
-    {severity: 'info', title: 'title', text: 'text'},
-    {severity: 'error', title: 'title', text: 'text'},
-    {severity: 'warning', title: 'title', text: 'text'},
-    {severity: 'info', title: 'title', text: 'text'},
-    {severity: 'error', title: 'title', text: 'text'},
-    {severity: 'warning', title: 'title', text: 'text'},
-    {severity: 'info', title: 'title', text: 'text'},
+    {severity: 'error', title: 'URGENT: Confirmed ICE Report', text: 'text'},
+    {severity: 'warning', title: 'ICE Sighting', text: 'text'},
+    {severity: 'info', title: 'Unconfirmed Report', text: 'text'},
+    {severity: 'error', title: 'URGENT: Confirmed ICE Report', text: 'text'},
+    {severity: 'warning', title: 'ICE Sighting', text: 'text'},
+    {severity: 'info', title: 'Unconfirmed Report', text: 'text'},
+    {severity: 'error', title: 'URGENT: Confirmed ICE Report', text: 'text'},
+    {severity: 'warning', title: 'ICE Sighting', text: 'text'},
+    {severity: 'info', title: 'Unconfirmed Report', text: 'text'},
+    {severity: 'error', title: 'URGENT: Confirmed ICE Report', text: 'text'},
+    {severity: 'warning', title: 'ICE Sighting', text: 'text'},
+    {severity: 'info', title: 'Unconfirmed Report', text: 'text'},
   ]
   
   return (
