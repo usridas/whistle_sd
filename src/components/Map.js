@@ -1,9 +1,10 @@
-import { MapContainer, TileLayer, useMap, Marker, Popup } from 'react-leaflet'
+import './Map.css';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 
 export const SimpleMap = ({}) =>{
     
   return (
-    <div style={{ height: '100vh', maxHeight: '1000px', width: '100vw', maxWidth: '1000px' }}>
+    <div className='map'>
         <MapContainer center={[32.7157, -117.1611]} zoom={11} scrollWheelZoom={false} style={{height: '100%'}}>
             <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

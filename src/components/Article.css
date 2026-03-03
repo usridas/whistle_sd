@@ -1,0 +1,13 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    border-radius: 16px;
+}
+
+.acluChip {
+    display: flex;
+    color: white;
+    background-color: red;
+}
